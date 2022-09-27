@@ -1,0 +1,99 @@
+ body {
+    background-color: rgba(174, 255, 0, 0.275);
+ }
+
+ h1, h2 {
+    display: flex;
+    justify-content: center;
+ }
+
+ h2 { 
+    margin-bottom: 1em;
+ }
+
+ nav {
+   margin-bottom: 2em;
+ }
+
+ nav ul {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+ }
+
+ nav a {
+   text-decoration: none;
+   background-color: navy;
+   margin-left: 0.05em;
+   padding: 1em;
+   color: white;
+   border-left: dotted 0.1em silver;
+ }
+
+nav a:hover, a:focus {
+   background-color: lightgoldenrodyellow;
+   color: black;   
+}
+
+ form {
+    margin: 0 auto;
+    border: 0.1em solid silver;
+    width: 50%;
+    padding: 1em;
+    box-shadow: 0.3em 0.3em 0.2em #555555;
+ }
+
+ label, input {
+    font-size: 1.5em;
+ }
+
+ input[type="number"] {
+    width: 5em;
+ }
+
+ .group { 
+    margin-top: 1em;
+    display: block;
+ }
+
+ .btn-center {
+    display: flex;
+    justify-content: center;
+ }
+
+ table {
+    border-collapse: collapse;
+    margin: 0 auto;
+ }
+
+ tr,td,th{
+    border: 0.2em solid navy;
+ }
+
+ td {
+    padding: 0.5em;
+ }
+
+ .danger {
+    background-color: red;
+    color: white;
+ }
+
+ .ok {
+    background-color: green;
+    color: white
+ }
+
+ footer {
+    background-color: rgb(16, 111, 16);
+    position: absolute;
+    top: 95vh;
+    height: 5vh;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99.2%;
+
+ }
